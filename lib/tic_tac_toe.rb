@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
   def turn_count
       @board.count{|token| token == "X" || token == "O"}
   end
-   
+
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"
